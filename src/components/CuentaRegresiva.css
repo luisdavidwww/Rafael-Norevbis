@@ -1,0 +1,179 @@
+
+.main-container-Conutdown{
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  top: 70%;
+
+}
+.flex-container-main-Conutdown{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+
+}
+
+.title-Conutdown{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-family:'Mosseta';
+    font-weight: 800;
+    font-size: 3rem;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: #608BBA;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    /* Borde en la fuente */
+    text-shadow: 
+        -0.3px  0.3px 0 #608BBA,  
+         0.3px  0.3px 0 #608BBA; 
+}
+
+
+.Sub-title-Conutdown{
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  font-family: "castellar", sans-serif;
+  font-weight: 800;
+  font-size: 1.3rem;
+  text-decoration: none;
+  letter-spacing: 2.0px;
+  color: #ffffff;
+  margin-top: 2rem;
+
+  text-shadow: 
+  -0.3px  0.3px 0 #608BBA,  
+   0.3px  0.3px 0 #608BBA; 
+}
+
+
+
+
+
+
+
+
+
+.flex-container-main-Conutdown {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Espacio entre los bloques de tiempo */
+    margin-right: 1rem;
+    margin-left: 1rem;
+    }
+  
+  .time-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #608BBA;
+    
+  }
+  
+  .time-value {
+    font-family: "Dancing Script", cursive;
+    font-size: 5rem; /* Tamaño del valor de tiempo */
+    font-weight: bold;
+  }
+  .time-label-point{
+    font-family: "Dancing Script", cursive;
+    font-size: 4rem; /* Tamaño del valor de tiempo */
+    position: relative;
+    margin-left: 1rem;
+    
+  }
+  
+  .time-label {
+    font-family: "Mosseta";
+    font-size: 2; /* Tamaño del label */
+    letter-spacing: 1px;
+    color: #608BBA; /* Color del texto del label */
+    margin-top: 0px;
+  }
+
+
+
+  @media only screen and (max-width: 960px) { 
+
+    .header-container-Conutdown {
+      background-image: url('../images/Recurso 18-100 Movil.jpg');
+      background-color: rgba(0,0,0,0);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      height: 40vh;
+      width: 100%;
+      display: flex;
+      margin: 0rem;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+  
+
+    .title-Conutdown{
+
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-family:'Mosseta';
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #608BBA;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+
+  }
+
+  .time-value {
+    font-family: "Dancing Script", cursive;
+    font-size: 2.5rem; /* Tamaño del valor de tiempo */
+    font-weight: bold;
+  }
+  .time-label-point{
+    font-family: "Dancing Script", cursive;
+    font-size: 3rem; /* Tamaño del valor de tiempo */
+    position: relative;
+    margin-left: 0.3rem;
+  }
+
+  .time-label {
+    font-family: "Mosseta";
+    font-size: 0.6rem; /* Tamaño del label */
+    letter-spacing: 1.6px;
+    color: #485e82; /* Color del texto del label */
+    margin-top: 10%;
+  }
+  .time-label.dia {
+    font-family: "Mosseta";
+    font-size: 0.8rem; /* Tamaño del label */
+    letter-spacing: 1.6px;
+    color: #485e82; /* Color del texto del label */
+    margin-top: 18%;
+  }
+
+  
+
+
+  .flex-container-main-Conutdown {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem; /* Espacio entre los bloques de tiempo */
+    width: 100%;
+    margin-right: 0rem;
+    margin-left: 0rem;
+    }
+  
+
+
+  
+  }
