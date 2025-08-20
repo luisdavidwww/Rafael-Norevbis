@@ -5,8 +5,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    height: 150vh; /* Siempre ocupa toda la pantalla */
-    min-height: 150vh;
+    height: 400vh; /* Siempre ocupa toda la pantalla */
+    min-height:400vh;
     width: 50rem;
     display: flex;
     position: relative;
@@ -24,8 +24,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    height: 150vh; /* Siempre ocupa toda la pantalla */
-    min-height: 150vh;
+    height: 210vh; /* Siempre ocupa toda la pantalla */
+    min-height: 210vh;
     width: 50rem;
     display: flex;
     position: relative;
@@ -37,25 +37,6 @@
     text-align: center;
   }
 
-  .Second-Container{
-    background-image: url('../images/TARJETA_4.jpg');
-    background-color: rgba(0,0,0,0);
-    background-size: cover; /* Ancho fijo de 50rem, altura automática */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-blend-mode: darken;
-    height: 120vh; /* Siempre ocupa toda la pantalla */
-    min-height: 120vh;
-    width: 50rem;
-    display: flex;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
 
   .Second-Container{
     background-image: url('../images/TARJETA_4.jpg');
@@ -64,8 +45,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    height: 200vh; /* Siempre ocupa toda la pantalla */
-    min-height: 200vh;
+    height: 125vh; /* Siempre ocupa toda la pantalla */
+    min-height: 125vh;
     width: 50rem;
     display: flex;
     position: relative;
@@ -98,13 +79,13 @@
   }
   
   .Forth-Container{
-    background-image: url('../images/INVITACION-CARLOS-Y-KATHE_6.jpg');
+    background-image: url('../images/TARJETA_3.jpg');
     background-color: rgba(0,0,0,0);
     background-size: cover; /* Ancho fijo de 50rem, altura automática */
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    height: 370vh; /* Siempre ocupa toda la pantalla */
+    height: 450vh; /* Siempre ocupa toda la pantalla */
     min-height: 370vh;
     width: 50rem;
     display: flex;
@@ -181,7 +162,6 @@
 
 
 
-
 .containerbtn-song{
     display: flex;
     position: absolute;
@@ -226,7 +206,7 @@
     position: absolute;
     justify-content: center;
     width: 70%;
-    top: 11%;
+    top: 41%;
   }
 
   .btn-outline-photo{
@@ -236,7 +216,7 @@
     z-index: 100;
     background-color: #BEA760;
     border: 3px solid #A8904E;
-    padding: 0.5rem 0rem;
+    padding: 1rem 3rem;
     transition: all 0.3s ease-out;
     border-radius: 50px;
     text-decoration-line: none;
@@ -244,9 +224,9 @@
     cursor: pointer;
     margin-top: 0rem; 
     font-family: 'Mosseta';
-    font-weight: 800;
+    font-weight: 900;
     letter-spacing: 0px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #ffffff;
     margin-top: 1rem;
     text-decoration: none;
@@ -302,22 +282,23 @@
 
 
     
-.containerbtn-Ca{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    width: 70%;
-    top: 60%;
-  }
-
-  .btn-outline-Ca{
-    display: flex;
+    .containerbtn-Ca{
+        display: flex;
+        position: absolute;
         justify-content: center;
+        width: 70%;
+        top: 83%;
+      }
+
+.btn-outline-Ca{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         width: 80%;
         z-index: 100;
         background-color: #BEA760;
-        border: 3px solid #BEA760;
-        padding: 1rem 2.8rem;
+        border: 3px solid #A8904E;
+        padding: 0.5rem 2.8rem;
         transition: all 0.3s ease-out;
         border-radius: 50px;
         text-decoration-line: none;
@@ -327,12 +308,24 @@
         font-family: 'Butler_Medium';
         font-weight: 800;
         letter-spacing: 1px;
-        font-size: 1rem;
+        font-size: 1.5rem;
         color: #ffffff;
         margin-top: 1rem;
         text-decoration: none;
-}
+    }
 
+        .btn-outline-Ca-spam{
+        position: relative;
+        top: 0%;
+        font-family: 'Romantic_Lovely';
+        letter-spacing: 2px;
+        font-size: 2rem;
+        line-height: 1.5rem;
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+    }
 .btn-outline-Ca:hover{
   color: #ffffff;
   background-color: #BEA760;
@@ -340,6 +333,49 @@
 }
 
 
+
+    .containerbtn-Cb{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        width: 70%;
+        top: 90%;
+      }
+      .btn-outline-Cb{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        z-index: 100;
+        background-color: #BEA760;
+        border: 3px solid #A8904E;
+        padding: 0.5rem 2.8rem;
+        transition: all 0.3s ease-out;
+        border-radius: 50px;
+        text-decoration-line: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 0rem; 
+        font-family: 'Butler_Medium';
+        font-weight: 800;
+        letter-spacing: 1px;
+        font-size: 1.5rem;
+        color: #ffffff;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
+    .btn-outline-cb-spam{
+        position: relative;
+        top: 0%;
+        font-family: 'Romantic_Lovely';
+        letter-spacing: 2px;
+        font-size: 2rem;
+        line-height: 1.5rem;
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+    }
 
 
 
@@ -379,8 +415,60 @@
     z-index: 1;
   }
 
+  .contenedor__ig{
+    display: flex;
+    position: absolute;
+    top:91%
+  }
+  .contenedor__ig_p{
+    font-family: 'Romantic_Lovely';
+    text-decoration: none;
+        font-weight: 500;
+        letter-spacing: 2px;
+        font-size: 1.5rem;
+        color: #ffffff;
+  }
 
 
+
+    .Container__Anillo{
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      top:87%;
+    }
+
+        .containerbtn-ulti{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        width: 70%;
+        top: 60%;
+      }
+
+      .btn-outline-ulti{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        z-index: 100;
+        background-color: #9FB09D;
+        border: 3px solid #758C70;
+        padding: 1.5rem 0rem;
+        transition: all 0.3s ease-out;
+        border-radius: 50px;
+        text-decoration-line: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 0rem; 
+        font-family: 'Butler_Medium';
+        font-weight: 800;
+        letter-spacing: 1px;
+        font-size: 1.5rem;
+        color: #ffffff;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
 
   
   @media only screen and (max-width: 960px) { 
@@ -606,17 +694,17 @@
         position: absolute;
         justify-content: center;
         width: 70%;
-        top: 44%;
+        top: 41%;
       }
 
       .btn-outline-photo{
         display: flex;
         justify-content: center;
-        width: 80%;
+        width: 100%;
         z-index: 100;
         background-color: #BEA760;
         border: 3px solid #A8904E;
-        padding: 1rem 2.8rem;
+        padding: 1rem 0rem;
         transition: all 0.3s ease-out;
         border-radius: 50px;
         text-decoration-line: none;
@@ -626,7 +714,7 @@
         font-family: 'Butler_Medium';
         font-weight: 800;
         letter-spacing: 1px;
-        font-size: 1rem;
+        font-size: 1.3rem;
         color: #ffffff;
         margin-top: 1rem;
         text-decoration: none;
