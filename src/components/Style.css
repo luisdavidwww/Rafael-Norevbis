@@ -969,4 +969,24 @@
       .slick-dots li.slick-active button:before {
         color: rgb(10, 65, 87) !important;  /* También blanco o usa otro color si quieres destacar */
       }
+
+
+
+
+        .contenedor__ig{
+    display: flex;
+    position: absolute;
+    top:92%
+  }
+  .contenedor__ig_p{
+    font-family: 'Romantic_Lovely';
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        font-size: 1.1rem;
+        color: #ffffff;
+  }
+
     }
