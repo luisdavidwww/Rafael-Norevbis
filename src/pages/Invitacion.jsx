@@ -38,21 +38,6 @@ const Invitacion = ({}) => {
     };
 
 
-    const location = useLocation();
-    const navigate = useNavigate();
-    const invitado = location.state?.invitado;
-
-
-  
-    // Si no hay datos, redirigir o mostrar un mensaje
-    if (!invitado) {
-      return (
-        <div>
-          <p>No se encontró información del invitado.</p>
-          <button onClick={() => navigate('/')}>Volver al inicio</button>
-        </div>
-      );
-    }
 
     useEffect(() => {
       getHome();
@@ -64,10 +49,14 @@ const Invitacion = ({}) => {
         loanding ? (<Loader />):(
           <>
             <div className='header-container-main'></div>
-            <Second />
+            <div className='header-container-main-2'></div>
+
+            <Forth />
+        {/* <Second />
             <ThirdC />
             <Forth />
-            <Quina />
+            <Quina />*/}
+            <Second />
           </>
           )
       }

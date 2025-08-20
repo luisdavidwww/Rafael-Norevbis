@@ -1,5 +1,24 @@
 .header-container-main {
-    background-image: url('../images/INVITACION-CARLOS-Y-KATHE_3.jpg');
+    background-image: url('../images/TARJETA_1.jpg');
+    background-color: rgba(0,0,0,0);
+    background-size: cover; /* Ancho fijo de 50rem, altura automática */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 150vh; /* Siempre ocupa toda la pantalla */
+    min-height: 150vh;
+    width: 50rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .header-container-main-2 {
+    background-image: url('../images/TARJETA_2.jpg');
     background-color: rgba(0,0,0,0);
     background-size: cover; /* Ancho fijo de 50rem, altura automática */
     background-position: center;
@@ -19,7 +38,7 @@
   }
 
   .Second-Container{
-    background-image: url('../images/INVITACION-CARLOS-Y-KATHE_4.jpg');
+    background-image: url('../images/TARJETA_4.jpg');
     background-color: rgba(0,0,0,0);
     background-size: cover; /* Ancho fijo de 50rem, altura automática */
     background-position: center;
@@ -39,7 +58,7 @@
   }
 
   .Second-Container{
-    background-image: url('../images/INVITACION-CARLOS-Y-KATHE_4.jpg');
+    background-image: url('../images/TARJETA_4.jpg');
     background-color: rgba(0,0,0,0);
     background-size: cover; /* Ancho fijo de 50rem, altura automática */
     background-position: center;
@@ -215,9 +234,9 @@
     justify-content: center;
     width: 50%;
     z-index: 100;
-    background-color: #68483E;
+    background-color: #BEA760;
+    border: 3px solid #A8904E;
     padding: 0.5rem 0rem;
-    border: 3px solid #68483E;
     transition: all 0.3s ease-out;
     border-radius: 50px;
     text-decoration-line: none;
@@ -235,8 +254,8 @@
 
 .btn-outline-photo:hover{
   color: #ffffff;
-  background-color: #0C396B;
-  border: 3px solid #0C396B;
+  background-color: #BEA760;
+  border: 3px solid #A8904E;
 }
 
 
@@ -293,31 +312,31 @@
 
   .btn-outline-Ca{
     display: flex;
-    justify-content: center;
-    width: 80%;
-    z-index: 100;
-    background-color: #0C396B;
-    padding: 0.5rem 0rem;
-    border: 3px solid #0C396B;
-    transition: all 0.3s ease-out;
-    border-radius: 50px;
-    text-decoration-line: none;
-    outline: none;
-    cursor: pointer;
-    margin-top: 0rem; 
-    font-family: 'Mosseta';
-    font-weight: 800;
-    letter-spacing: 0px;
-    font-size: 1.5rem;
-    color: #ffffff;
-    margin-top: 1rem;
-    text-decoration: none;
+        justify-content: center;
+        width: 80%;
+        z-index: 100;
+        background-color: #BEA760;
+        border: 3px solid #BEA760;
+        padding: 1rem 2.8rem;
+        transition: all 0.3s ease-out;
+        border-radius: 50px;
+        text-decoration-line: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 0rem; 
+        font-family: 'Butler_Medium';
+        font-weight: 800;
+        letter-spacing: 1px;
+        font-size: 1rem;
+        color: #ffffff;
+        margin-top: 1rem;
+        text-decoration: none;
 }
 
 .btn-outline-Ca:hover{
   color: #ffffff;
-  background-color: #2276d6;
-  border: 3px solid #2276d6;
+  background-color: #BEA760;
+  border: 3px solid #BEA760;
 }
 
 
@@ -367,7 +386,22 @@
   @media only screen and (max-width: 960px) { 
 
     .header-container-main {
-      background-image: url('../images/INVITACION-CARLOS-Y-KATHE_3.jpg');
+      background-image: url('../images/TARJETA_1.jpg');
+      background-size: cover; /* Ajusta la imagen sin deformarla */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: 150vh; /* Siempre ocupa toda la pantalla */
+      min-height: 150vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+    .header-container-main-2 {
+      background-image: url('../images/TARJETA_2.jpg');
       background-size: cover; /* Ajusta la imagen sin deformarla */
       background-position: center;
       background-repeat: no-repeat;
@@ -381,15 +415,33 @@
       align-items: center;
       font-family: 'PT Sans', sans-serif;
     }
+    .header-container-main-3 {
+      background-image: url('../images/TARJETA_4.jpg');
+      background-size: cover; /* Ajusta la imagen sin deformarla */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: 80vh; /* Siempre ocupa toda la pantalla */
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+      
+
     .Second-Container {
-        background-image: url('../images/INVITACION-CARLOS-Y-KATHE_4.jpg');
+        background-image: url('../images/TARJETA_4.jpg');
         background-size: cover; /* Ajusta la imagen sin deformarla */
         background-position: center;
         background-repeat: no-repeat;
         background-blend-mode: darken;
         width: 100%;
-        height: 130vh; /* Siempre ocupa toda la pantalla */
-        min-height: 130vh;
+        height: 80vh; /* Siempre ocupa toda la pantalla */
+        min-height: 80vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -427,14 +479,14 @@
         font-family: 'PT Sans', sans-serif;
       }
       .Forth-Container {
-        background-image: url('../images/INVITACION-CARLOS-Y-KATHE_6.jpg');
+        background-image: url('../images/TARJETA_3.jpg');
         background-size: cover; /* Ajusta la imagen sin deformarla */
         background-position: center;
         background-repeat: no-repeat;
         background-blend-mode: darken;
         width: 100%;
-        height: 150vh; /* Siempre ocupa toda la pantalla */
-        min-height: 150vh;
+        height: 200vh; /* Siempre ocupa toda la pantalla */
+        min-height: 200vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -554,27 +606,27 @@
         position: absolute;
         justify-content: center;
         width: 70%;
-        top: 18%;
+        top: 44%;
       }
 
       .btn-outline-photo{
         display: flex;
         justify-content: center;
-        width: 50%;
+        width: 80%;
         z-index: 100;
-        background-color: #68483E;
-        padding: 0.5rem 0rem;
-        border: 3px solid #68483E;
+        background-color: #BEA760;
+        border: 3px solid #A8904E;
+        padding: 1rem 2.8rem;
         transition: all 0.3s ease-out;
         border-radius: 50px;
         text-decoration-line: none;
         outline: none;
         cursor: pointer;
         margin-top: 0rem; 
-        font-family: 'Mosseta';
+        font-family: 'Butler_Medium';
         font-weight: 800;
-        letter-spacing: 0px;
-        font-size: 0.8rem;
+        letter-spacing: 1px;
+        font-size: 1rem;
         color: #ffffff;
         margin-top: 1rem;
         text-decoration: none;
@@ -582,8 +634,8 @@
     
     .btn-outline-photo:hover{
       color: #ffffff;
-      background-color: #0C396B;
-      border: 3px solid #0C396B;
+      background-color: #BEA760;
+      border: 3px solid #BEA760;
     }
 
 
@@ -636,37 +688,142 @@
         position: absolute;
         justify-content: center;
         width: 70%;
-        top: 87%;
+        top: 81%;
+      }
+    .containerbtn-Cb{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        width: 70%;
+        top: 90%;
       }
 
-      .btn-outline-Ca{
+    .containerbtn-ulti{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        width: 70%;
+        top: 50%;
+      }
+
+      .btn-outline-ulti{
         display: flex;
         justify-content: center;
+        flex-direction: column;
         width: 80%;
         z-index: 100;
-        background-color: #0C396B;
-        padding: 0.5rem 0rem;
-        border: 3px solid #0C396B;
+        background-color: #9FB09D;
+        border: 3px solid #758C70;
+        padding: 0.5rem 2.8rem;
         transition: all 0.3s ease-out;
         border-radius: 50px;
         text-decoration-line: none;
         outline: none;
         cursor: pointer;
         margin-top: 0rem; 
-        font-family: 'Mosseta';
+        font-family: 'Butler_Medium';
         font-weight: 800;
-        letter-spacing: 0px;
-        font-size: 0.8rem;
+        letter-spacing: 1px;
+        font-size: 1.1rem;
         color: #ffffff;
         margin-top: 1rem;
         text-decoration: none;
     }
+
+
+
+
+
+
+
+      .btn-outline-Ca{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        z-index: 100;
+        background-color: #BEA760;
+        border: 3px solid #A8904E;
+        padding: 0.5rem 2.8rem;
+        transition: all 0.3s ease-out;
+        border-radius: 50px;
+        text-decoration-line: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 0rem; 
+        font-family: 'Butler_Medium';
+        font-weight: 800;
+        letter-spacing: 1px;
+        font-size: 1.1rem;
+        color: #ffffff;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
+    .btn-outline-Ca-spam{
+        position: relative;
+        top: 0%;
+        font-family: 'Romantic_Lovely';
+        letter-spacing: 2px;
+        font-size: 2rem;
+        line-height: 1rem;
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+    }
     
     .btn-outline-Ca:hover{
       color: #ffffff;
-      background-color: #2276d6;
-      border: 3px solid #2276d6;
+      background-color: #BEA760;
+      border: 3px solid #A8904E;
     }
+
+
+
+     .btn-outline-Cb{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        z-index: 100;
+        background-color: #BEA760;
+        border: 3px solid #A8904E;
+        padding: 0.5rem 2.8rem;
+        transition: all 0.3s ease-out;
+        border-radius: 50px;
+        text-decoration-line: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 0rem; 
+        font-family: 'Butler_Medium';
+        font-weight: 800;
+        letter-spacing: 1px;
+        font-size: 1.1rem;
+        color: #ffffff;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
+    .btn-outline-Cb-spam{
+        position: relative;
+        top: 0%;
+        font-family: 'Romantic_Lovely';
+        letter-spacing: 2px;
+        font-size: 2rem;
+        line-height: 1rem;
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .btn-outline-Cb:hover{
+      color: #ffffff;
+      background-color: #BEA760;
+      border: 3px solid #A8904E;
+    }
+
+
+
 
 
 

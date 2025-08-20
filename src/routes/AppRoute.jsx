@@ -11,9 +11,9 @@ const AppRoutes = () => {
     <Router>
             <div style={{ display: 'block' }}>
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/invitacion" element={<Invitacion />} />
-                    <Route path="/ListaInvitados" element={<ListaInvitados />} />
+                   {/* <Route path="/aaa" element={<Home />} />*/}
+                    <Route path="/" element={<Invitacion />} />
+                   {/* <Route path="/ListaInvitados" element={<ListaInvitados />} />*/}
                 </Routes>
             </div>
         </Router>
