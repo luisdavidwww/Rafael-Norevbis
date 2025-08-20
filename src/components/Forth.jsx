@@ -1,4 +1,5 @@
 import React from 'react';
+import Anillo from '../images/Recurso-12.png'
 
 
 
@@ -19,7 +20,9 @@ const Forth = () => {
       <div className='containerbtn-Ca'>
           <a className='btn-outline-Ca' type='button'  href='https://walink.co/1ce1df' >CONFIRMAR <span className='btn-outline-Ca-spam'>a la novia</span> </a>
       </div>
-
+      <div className='Container__Anillo'>
+        <img src={Anillo} alt="Anillo"  style={{width:'70px'}}/>
+      </div>
       <div className='containerbtn-Cb'>
           <a className='btn-outline-Cb' type='button'  href='https://walink.co/cf679a' >CONFIRMAR <span className='btn-outline-Cb-spam'>al novio</span> </a>
       </div>

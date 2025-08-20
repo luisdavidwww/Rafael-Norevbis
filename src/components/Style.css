@@ -825,6 +825,12 @@
 
 
 
+    .Container__Anillo{
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      top:87%;
+    }
 
 
 
