@@ -135,7 +135,6 @@
     z-index: 100;
     background-color: #ffffff;
     padding: 0.5rem 0rem;
-    border: 3px solid #ffffff;
     transition: all 0.3s ease-out;
     border-radius: 50px;
     text-decoration-line: none;
@@ -177,7 +176,6 @@
     z-index: 100;
     background-color: #ffffff;
     padding: 0.5rem 0rem;
-    border: 3px solid #ffffff;
     transition: all 0.3s ease-out;
     border-radius: 50px;
     text-decoration-line: none;
@@ -215,7 +213,6 @@
     width: 50%;
     z-index: 100;
     background-color: #BEA760;
-    border: 3px solid #A8904E;
     padding: 1rem 3rem;
     transition: all 0.3s ease-out;
     border-radius: 50px;
@@ -235,7 +232,6 @@
 .btn-outline-photo:hover{
   color: #ffffff;
   background-color: #BEA760;
-  border: 3px solid #A8904E;
 }
 
 
@@ -297,7 +293,6 @@
         width: 80%;
         z-index: 100;
         background-color: #BEA760;
-        border: 3px solid #A8904E;
         padding: 0.5rem 2.8rem;
         transition: all 0.3s ease-out;
         border-radius: 50px;
@@ -329,7 +324,6 @@
 .btn-outline-Ca:hover{
   color: #ffffff;
   background-color: #BEA760;
-  border: 3px solid #BEA760;
 }
 
 
@@ -348,7 +342,6 @@
         width: 80%;
         z-index: 100;
         background-color: #BEA760;
-        border: 3px solid #A8904E;
         padding: 0.5rem 2.8rem;
         transition: all 0.3s ease-out;
         border-radius: 50px;
@@ -421,7 +414,7 @@
     top:91%
   }
   .contenedor__ig_p{
-    font-family: 'Romantic_Lovely';
+    font-family: 'Butler_Medium';
     text-decoration: none;
         font-weight: 500;
         letter-spacing: 0px;
@@ -453,7 +446,6 @@
         width: 80%;
         z-index: 100;
         background-color: #9FB09D;
-        border: 3px solid #758C70;
         padding: 1.5rem 0rem;
         transition: all 0.3s ease-out;
         border-radius: 50px;
@@ -617,7 +609,6 @@
         z-index: 100;
         background-color: #ffffff;
         padding: 0.5rem 0rem;
-        border: 3px solid #ffffff;
         transition: all 0.3s ease-out;
         border-radius: 50px;
         text-decoration-line: none;
@@ -658,7 +649,6 @@
         z-index: 100;
         background-color: #ffffff;
         padding: 0.5rem 0rem;
-        border: 3px solid #ffffff;
         transition: all 0.3s ease-out;
         border-radius: 50px;
         text-decoration-line: none;
@@ -703,7 +693,6 @@
         width: 100%;
         z-index: 100;
         background-color: #BEA760;
-        border: 3px solid #A8904E;
         padding: 1rem 0rem;
         transition: all 0.3s ease-out;
         border-radius: 50px;
@@ -723,7 +712,6 @@
     .btn-outline-photo:hover{
       color: #ffffff;
       background-color: #BEA760;
-      border: 3px solid #BEA760;
     }
 
 
@@ -801,7 +789,6 @@
         width: 80%;
         z-index: 100;
         background-color: #9FB09D;
-        border: 3px solid #758C70;
         padding: 0.5rem 2.8rem;
         transition: all 0.3s ease-out;
         border-radius: 50px;
@@ -831,7 +818,6 @@
         width: 80%;
         z-index: 100;
         background-color: #BEA760;
-        border: 3px solid #A8904E;
         padding: 0.5rem 2.8rem;
         transition: all 0.3s ease-out;
         border-radius: 50px;
@@ -863,7 +849,6 @@
     .btn-outline-Ca:hover{
       color: #ffffff;
       background-color: #BEA760;
-      border: 3px solid #A8904E;
     }
 
 
@@ -875,7 +860,6 @@
         width: 80%;
         z-index: 100;
         background-color: #BEA760;
-        border: 3px solid #A8904E;
         padding: 0.5rem 2.8rem;
         transition: all 0.3s ease-out;
         border-radius: 50px;
@@ -907,7 +891,6 @@
     .btn-outline-Cb:hover{
       color: #ffffff;
       background-color: #BEA760;
-      border: 3px solid #A8904E;
     }
 
 
@@ -979,12 +962,12 @@
     top:92%
   }
   .contenedor__ig_p{
-    font-family: 'Romantic_Lovely';
+    font-family: 'Butler_Medium';
     text-decoration: none;
     padding: 0px;
     margin: 0px;
         font-weight: 500;
-        letter-spacing: 0px;
+        letter-spacing: 0.5px;
         font-size: 1.1rem;
         color: #ffffff;
   }
